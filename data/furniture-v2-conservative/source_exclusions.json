@@ -1,0 +1,26 @@
+{
+  "policy": "exclude_incomplete_labels",
+  "source_counts": {
+    "train": 9000,
+    "test": 1000
+  },
+  "excluded_count": 1,
+  "excluded_by_source_split": {
+    "test": 1
+  },
+  "excluded_by_label": {
+    "type": 1,
+    "style": 1
+  },
+  "excluded": [
+    {
+      "image_id": "test-0000175",
+      "source_split": "test",
+      "reason": "missing_required_label",
+      "missing_labels": [
+        "type",
+        "style"
+      ]
+    }
+  ]
+}

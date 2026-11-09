@@ -44,7 +44,7 @@ git push -u origin data/A1-review-train-val
 
 ## สิ่งที่ห้ามอัปโหลดเข้า git
 
-- ภาพ dataset (`data/`), checkpoint (`*.pt`), ผลเทรนทั้งโฟลเดอร์ (`artifacts/`), ไฟล์ `.zip` : ใหญ่เกิน และ `.gitignore` กันไว้แล้ว ให้ส่งผ่าน Google Drive แทน แล้วโพสต์ลิงก์กับ SHA-256 ใน PR
+- ภาพ dataset (`data/**/images/`), checkpoint (`*.pt`), ผลเทรนทั้งโฟลเดอร์ (`artifacts/`), ไฟล์ `.zip` : ใหญ่เกิน และ `.gitignore` กันไว้แล้ว ให้ส่งผ่าน Google Drive แทน แล้วโพสต์ลิงก์กับ SHA-256 ใน PR
 - รหัสผ่าน/token ใด ๆ (`.env` ถูกกันไว้ แต่ตรวจก่อน commit ทุกครั้ง)
 - ผลตัดสินจากคนที่เป็นไฟล์เล็ก (CSV) ใส่ใน `reviews/` ได้ ดู `reviews/README.md`
 

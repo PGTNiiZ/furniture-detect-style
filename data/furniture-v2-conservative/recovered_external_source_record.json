@@ -1,0 +1,13 @@
+{
+  "image_id": "test-0000175",
+  "image_path": "images/test-0000175.png",
+  "source_split": "test",
+  "type": "",
+  "style": "",
+  "pixel_hash": "fdfcc8127161e04fea0a65e20658a771dd037313267884a4dc3edc1624b57050",
+  "dhash": "052939175f58330f",
+  "group_id": "",
+  "source_revision": "3582bc71ff1eec35e3283c899049c8a44c024d30",
+  "exclusion_reason": "missing_required_label",
+  "annotation": "source dataset; not expert verified"
+}

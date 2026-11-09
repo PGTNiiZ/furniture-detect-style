@@ -7,7 +7,9 @@ build/
 .env
 
 # Large or generated: share these outside git (Drive / GitHub Release)
-data/
+data/*
+!data/furniture-v2-conservative/
+data/furniture-v2-conservative/images/
 artifacts/
 .pip-temp/
 *.pt

@@ -1,0 +1,26 @@
+{
+  "source_split": "train",
+  "rows": 9000,
+  "method": "64-bit dHash, exhaustive Hamming distance",
+  "threshold": 4,
+  "examined_pairs": 40495500,
+  "candidate_pairs": 1031,
+  "cross_split_pairs": 494,
+  "exact_pixel_pairs": 0,
+  "candidates_by_split": {
+    "train/train": 478,
+    "test/train": 196,
+    "train/val": 240,
+    "val/val": 31,
+    "test/val": 58,
+    "test/test": 28
+  },
+  "truncated": false,
+  "manifest_sha256": {
+    "train": "42cf5430e6be16b91186d148129ba89fe124833c1f82f12d604ea46a1366c152",
+    "val": "f9974dbce027b5d73e9d68d478989a4b11915011cea8e8ae23ec3885d9b1c02b",
+    "test": "ea1ff85ed722b2d734e1d8455f3109d6029df1ee292dcb75aaa9b6ff72f331a6"
+  },
+  "candidates_csv": "artifacts\\source-train-near-audit.csv",
+  "note": "Candidates require human review; dHash proximity does not prove shared product identity. External source test was excluded from pair comparison."
+}

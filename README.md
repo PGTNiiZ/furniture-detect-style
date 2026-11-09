@@ -7,7 +7,8 @@
 - วิธีทำงานด้วย Git/branch/Pull Request: [CONTRIBUTING.md](CONTRIBUTING.md) (`main` = นิ่ง เจ้าของ repo เท่านั้นที่ merge, `develop` = รวมงาน, ทำงานบน branch ของตัวเองแล้วเปิด PR เข้า `develop`)
 - เทรนอะไรไปแล้ว ทำไมเลือก DenseNet121 และเทรนต่อยังไง: [docs/22-training-and-model-guide.md](docs/22-training-and-model-guide.md)
 - ใบงานที่ต้องใช้คน (ตรวจภาพซ้ำ นโยบายสไตล์ ภาพห้อง): [docs/21-human-tasks-handoff.md](docs/21-human-tasks-handoff.md)
-- ภาพ dataset, checkpoint และผลเทรน (`data/`, `artifacts/`) ไม่อยู่ใน git ขอไฟล์จากเจ้าของ repo ผ่าน Drive
+- Dataset: manifest ของทุก split อยู่ใน git ที่ `data/furniture-v2-conservative/` (ที่มาและสิทธิ์ใช้งาน: [DATASET_NOTICE.md](data/furniture-v2-conservative/DATASET_NOTICE.md)) ส่วนภาพ 1.4 GB โหลดเป็น zip จากหน้า Releases แล้วแตกลง `data/`
+- Checkpoint และผลเทรน (`artifacts/`) ไม่อยู่ใน git ขอไฟล์จากเจ้าของ repo ผ่าน Drive
 
 ## ข้อมูลและการทดลอง
 
