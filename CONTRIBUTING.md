@@ -56,17 +56,21 @@ git push -u origin data/A1-review-train-val
 
 ## สำหรับเจ้าของ repo: ตั้งค่า GitHub ครั้งเดียว
 
-ไปที่ Settings → Branches → Add branch ruleset (หรือ Add classic branch protection rule)
+1. **ตั้ง default branch เป็น `develop`** (Settings → General → Default branch) เพื่อให้ PR ของเพื่อนชี้ไป develop โดยอัตโนมัติ
+2. เชิญเพื่อนที่ Settings → Collaborators (สิทธิ์ **Write**)
+3. Settings → Rules → Rulesets → New branch ruleset สองอัน:
 
-**`main`**
-- Require a pull request before merging, เปิด "Require approvals" = 1
-- Restrict who can push / Restrict updates ให้เหลือเฉพาะเจ้าของ (กันคนอื่น merge เข้า main)
+**`main`** (target: branch `main`)
+- Restrict deletions และ Block force pushes
+- Require a pull request before merging: Required approvals = 1 และเปิด **Require review from Code Owners** (ไฟล์ `.github/CODEOWNERS` ระบุเจ้าของ repo ไว้แล้ว ทำให้มีแต่เจ้าของที่ approve ได้)
+- Require status checks to pass: เลือก `only-from-develop` (จาก workflow Branch guard) และ `test` (จาก CI)
+- ถ้าอยากให้เฉพาะเจ้าของ merge ได้จริง ๆ: Restrict updates แล้วเพิ่มตัวเองใน Bypass list
+
+**`develop`** (target: branch `develop`)
+- Require a pull request before merging (Required approvals = 0 ถ้าอยากให้เร็ว หรือ 1 ถ้าอยากให้เพื่อนช่วยดูกัน)
+- Require status checks to pass: `test`
 - Block force pushes และ Restrict deletions
 
-**`develop`**
-- Require a pull request before merging (ไม่ต้อง approve ถ้าอยากให้เร็ว หรือ 1 ถ้าอยากให้เพื่อนช่วยดูกัน)
-- Block force pushes
+ผลที่ได้: ไม่มีใครเลี่ยง push ตรงเข้า `main`/`develop` ได้ งานทุกชิ้นเข้า `develop` ผ่าน PR และ PR เข้า `main` ต้องมาจาก `develop` เท่านั้นและเจ้าของ repo เป็นคน approve
 
-หลัง workflow `CI` ผ่านครั้งแรกบน GitHub แล้ว ค่อยเปิด "Require status checks to pass" และเลือก `test` ไม่ควรเปิดก่อนเห็นว่าผ่านจริง เพราะ CI ที่เขียนไว้ยังไม่เคยรันบน GitHub
-
-เชิญเพื่อนที่ Settings → Collaborators (สิทธิ์ Write) เพื่อให้แตก branch และเปิด PR ได้
+หมายเหตุ: บน repo public ฟรี Rulesets ใช้ได้ แต่ถ้าเมนูไม่ขึ้นให้ใช้ Settings → Branches → Add classic branch protection rule ตั้งค่าเทียบเท่ากัน

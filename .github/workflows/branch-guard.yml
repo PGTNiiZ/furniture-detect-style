@@ -1,0 +1,20 @@
+name: Branch guard
+
+# PR เข้า main ต้องมาจาก develop เท่านั้น (งานของเพื่อนต้องเข้า develop ก่อน)
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  only-from-develop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require head branch = develop
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          if [ "$HEAD_REF" != "develop" ]; then
+            echo "PR เข้า main ต้องมาจาก develop เท่านั้น (branch นี้คือ: $HEAD_REF)"
+            echo "ให้เปลี่ยน base เป็น develop แทน"
+            exit 1
+          fi
