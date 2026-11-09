@@ -1,0 +1,7 @@
+backbone: vit_b_16
+initialization: imagenet
+checkpoint: null
+checkpoint_scope: full
+image_size: 224
+dropout: 0.0
+weights: IMAGENET1K_V1

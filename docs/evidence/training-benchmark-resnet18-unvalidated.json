@@ -1,0 +1,33 @@
+{
+  "dataset_id": "furniture-v1-complete",
+  "train_manifest_sha256": "42cf5430e6be16b91186d148129ba89fe124833c1f82f12d604ea46a1366c152",
+  "train_rows": 6330,
+  "backbone": "resnet18",
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "batch_size": 32,
+  "warmup_batches_per_phase": 1,
+  "accumulation_steps": 1,
+  "amp": false,
+  "dataset_audit_status": "unvalidated partial snapshot; timing only, not a training protocol",
+  "measured_batches_per_phase": 3,
+  "phases": {
+    "frozen": {
+      "seconds": 1.1219529999943916,
+      "measured_samples": 96,
+      "samples_per_second": 85.56508160366779,
+      "linear_epoch_estimate_seconds": 73.9787759371302,
+      "peak_gpu_bytes": 286851584
+    },
+    "unfrozen": {
+      "seconds": 0.9919993999938015,
+      "measured_samples": 96,
+      "samples_per_second": 96.77425208180556,
+      "linear_epoch_estimate_seconds": 65.40996043709129,
+      "peak_gpu_bytes": 900160000
+    }
+  },
+  "note": "Train-only timing with fresh pretrained model; no evaluation or saved checkpoint. Linear estimate ignores validation, checkpoint writes and startup; not a full-suite forecast."
+}

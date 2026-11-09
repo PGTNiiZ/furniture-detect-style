@@ -1,0 +1,24 @@
+# Python / environments
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+.env
+
+# Large or generated: share these outside git (Drive / GitHub Release)
+data/
+artifacts/
+.pip-temp/
+*.pt
+*.pth
+*.zip
+*.crdownload
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+.DS_Store
+.download-tools/

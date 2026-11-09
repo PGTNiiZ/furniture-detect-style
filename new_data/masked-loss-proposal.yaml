@@ -1,0 +1,24 @@
+# Protocol proposal only. No current trainer reads this file.
+# Enable only after a new source's category-only annotations pass audit.
+status: proposal_not_runnable
+dataset_snapshot: null
+train_manifest: null
+validation_manifest: null
+mapping_from: train_only
+missing_label_sentinel: -1
+tasks:
+  type:
+    loss: cross_entropy
+    normalization: valid_type_labels
+    weight: 1.0
+  style:
+    loss: cross_entropy
+    normalization: valid_style_labels
+    weight: 1.0
+missing_task_in_batch: skip_that_task_loss
+create_unknown_class_for_missing: false
+report_per_task_valid_sample_counts: true
+holdouts: frozen_before_training
+status_note: >-
+  Requires an audited dataset, implementation, tests, and a separate experiment
+  before use. It is not part of the current v2 or ZIP pilot suite.

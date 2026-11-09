@@ -1,0 +1,15 @@
+{
+  "kind": "real detector and completed screening classifier technical demonstration; no annotations or accuracy claim",
+  "environment": "existing separate research-clean-env; ultralytics 8.4.198 and torch 2.15.0+cpu; not a fresh install",
+  "source": "https://www.pexels.com/photo/sofa-and-table-with-chairs-in-living-room-6312360/",
+  "image_sha256": "2b042c409f1b63f358fd3376cba120f455a525c1b909575efd744761c179c490",
+  "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+  "classifier_role": "completed screening checkpoint; not the selected final classifier",
+  "all_detections": 8,
+  "classified": 5,
+  "unmapped": 3,
+  "detector_classifier_disagreements": 2,
+  "result": "artifacts/room-inference-demo/result-v3/result.json",
+  "annotated": "artifacts/room-inference-demo/result-v3/annotated.png"
+}

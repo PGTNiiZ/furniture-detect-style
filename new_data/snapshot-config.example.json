@@ -1,0 +1,8 @@
+{
+  "archive_path": "${FURNITURE_ARCHIVE}",
+  "archive_prefix": "furniture_dataset/data/processed/",
+  "expected_archive_sha256": "dce23f8f54b1317d31805564a4d58ab0eff2ed3ce00e06656df188440563f79a",
+  "v2_root": "data/furniture-v2-conservative",
+  "holdout_candidates": "artifacts/zip-batch-audit-20261104/holdout-dhash-candidates.csv",
+  "dhash_threshold": 4
+}

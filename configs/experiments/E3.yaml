@@ -1,0 +1,6 @@
+id: E3
+description: E2 plus horizontal flip only; controlled augmentation comparison
+overrides:
+  augmentation:
+    enabled: true
+    horizontal_flip_p: 0.5

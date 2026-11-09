@@ -1,0 +1,19 @@
+id: my-furniture-v1
+root: data/my-furniture-v1
+source:
+  kind: csv
+  dataset_id: null
+  revision: null
+  csv_file: data/incoming/labels.csv
+  image_root: data/incoming/images
+  columns:
+    image_path: filename
+    type: category
+    style: design_style
+    group_id: product_id
+    split: split
+split:
+  seed: 42
+  val_fraction: 0.15
+  test_fraction: 0.15
+  previous_root: null

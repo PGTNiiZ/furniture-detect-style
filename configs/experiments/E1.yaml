@@ -1,0 +1,5 @@
+id: E1
+description: Frozen shared backbone; two heads, no augmentation; control baseline
+overrides:
+  training:
+    freeze_epochs: all

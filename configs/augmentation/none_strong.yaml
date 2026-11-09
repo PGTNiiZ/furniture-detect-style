@@ -1,0 +1,28 @@
+backend: albumentations
+preset: none
+params:
+  horizontal_flip_p: 0.0
+  affine_p: 0.0
+  rotate_degrees: 0.0
+  translate_fraction: 0.0
+  scale:
+  - 1.0
+  - 1.0
+  brightness_contrast_p: 0.0
+  brightness_limit: 0.0
+  contrast_limit: 0.0
+  blur_p: 0.0
+  blur_kernel: 3
+occlusion:
+  preset: strong
+  probability: 0.5
+  holes:
+  - 1
+  - 3
+  height_fraction:
+  - 0.1
+  - 0.25
+  width_fraction:
+  - 0.1
+  - 0.25
+  fill: 127

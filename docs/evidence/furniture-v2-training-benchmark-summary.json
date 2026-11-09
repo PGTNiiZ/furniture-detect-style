@@ -1,0 +1,83 @@
+{
+  "dataset_id": "furniture-v2-conservative",
+  "train_manifest_sha256": "0060336ce705d814bf3b447a05d4773325c0ee13cce452fe919af1ef0adfdbac",
+  "models_tested": 10,
+  "all_use_same_train_samples": true,
+  "sampling_seed": 42,
+  "batch_size": 32,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "note": "Short train-only timing, no held-out inference; estimates omit validation and I/O and are not research metrics.",
+  "results": [
+    {
+      "backbone": "convnext_tiny",
+      "frozen_samples_per_second": 99.90259496806604,
+      "unfrozen_samples_per_second": 44.96380975331426,
+      "peak_gpu_gib": 3.6329879760742188,
+      "estimated_10_epoch_training_only_seconds": 1178.9328238761736
+    },
+    {
+      "backbone": "densenet121",
+      "frozen_samples_per_second": 96.10359968056557,
+      "unfrozen_samples_per_second": 41.60442074706736,
+      "peak_gpu_gib": 4.030004024505615,
+      "estimated_10_epoch_training_only_seconds": 1269.2124821331868
+    },
+    {
+      "backbone": "efficientnet_b0",
+      "frozen_samples_per_second": 80.26927666645122,
+      "unfrozen_samples_per_second": 92.76091858864787,
+      "peak_gpu_gib": 2.73306941986084,
+      "estimated_10_epoch_training_only_seconds": 662.0650885980747
+    },
+    {
+      "backbone": "efficientnet_b2",
+      "frozen_samples_per_second": 118.95464148021219,
+      "unfrozen_samples_per_second": 79.69820944640183,
+      "peak_gpu_gib": 4.010799407958984,
+      "estimated_10_epoch_training_only_seconds": 697.9943483951865
+    },
+    {
+      "backbone": "mobilenet_v3_large",
+      "frozen_samples_per_second": 129.6925570378412,
+      "unfrozen_samples_per_second": 88.66466580040023,
+      "peak_gpu_gib": 1.4098401069641113,
+      "estimated_10_epoch_training_only_seconds": 629.2435703441563
+    },
+    {
+      "backbone": "regnet_y_400mf",
+      "frozen_samples_per_second": 112.8404298768178,
+      "unfrozen_samples_per_second": 96.314563365325,
+      "peak_gpu_gib": 1.0930495262145996,
+      "estimated_10_epoch_training_only_seconds": 600.2773088373044
+    },
+    {
+      "backbone": "resnet18",
+      "frozen_samples_per_second": 114.38400282514992,
+      "unfrozen_samples_per_second": 97.71830804592261,
+      "peak_gpu_gib": 0.8383393287658691,
+      "estimated_10_epoch_training_only_seconds": 591.7460957412306
+    },
+    {
+      "backbone": "resnet50",
+      "frozen_samples_per_second": 100.99666879282701,
+      "unfrozen_samples_per_second": 73.28554759478814,
+      "peak_gpu_gib": 2.891012191772461,
+      "estimated_10_epoch_training_only_seconds": 768.113604291769
+    },
+    {
+      "backbone": "swin_t",
+      "frozen_samples_per_second": 96.73607446359294,
+      "unfrozen_samples_per_second": 53.36850020981479,
+      "peak_gpu_gib": 3.556400775909424,
+      "estimated_10_epoch_training_only_seconds": 1015.9504698797998
+    },
+    {
+      "backbone": "vit_b_16",
+      "frozen_samples_per_second": 69.42804166851072,
+      "unfrozen_samples_per_second": 26.675107115105266,
+      "peak_gpu_gib": 4.814574718475342,
+      "estimated_10_epoch_training_only_seconds": 1957.807952317482
+    }
+  ]
+}

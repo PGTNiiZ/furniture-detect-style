@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "basis": "Extracted research candidate v2; installed package source matched current src/furniture files",
+  "environment": "New Python 3.11 virtual environment, initially pip and setuptools only",
+  "installation": "pip install .[data,detection,dev,reports] from extracted candidate; torch installed first from cached wheel without dependencies",
+  "torch_wheel_sha256": "d2c5938f593a47cf6d151a16d130a3cc3f0c105df1b905a571efc00b01e38c1f",
+  "torch_wheel_hash_matches_pypi": true,
+  "pip_check": "No broken requirements found",
+  "versions": {"torch":"2.15.0+cpu", "torchvision":"0.29.2+cpu", "albumentations":"2.0.8", "datasets":"4.8.5", "ultralytics":"8.4.198"},
+  "checks": ["imported installed package from clean environment site-packages", "loaded C5 config and applied Albumentations transform to 224x224 image", "created artificial smoke fixtures and trained one epoch on CPU", "extracted final ZIP and ran robustness, recovery, suite retry and CLI regression tests: 20 passed in 48.41s"],
+  "limitations": ["Clean environment PyTorch wheel is CPU only; CUDA was verified separately in the original environment", "Artificial smoke results are not research accuracy", "The source archive intentionally excludes datasets and trained checkpoints"]
+}

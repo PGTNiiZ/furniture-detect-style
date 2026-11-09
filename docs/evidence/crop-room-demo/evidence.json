@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "context": {
+    "image_id": "pexels-6312360",
+    "image_path": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\room-inference-demo\\source.jpg",
+    "image_sha256": "2b042c409f1b63f358fd3376cba120f455a525c1b909575efd744761c179c490",
+    "provenance": {
+      "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+      "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+      "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+      "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+      "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+      "config_version": "room-inference-v1"
+    },
+    "top_k": 3,
+    "save_crops": true,
+    "device": "cpu"
+  },
+  "files": {
+    "annotated.png": "d17e54a56285df6c9682e3f6d88d4f66175b2ba5538cf3590e6e6f0747f09e45",
+    "objects.csv": "4348c9b1c940dc1a3713a4de61e592d7578a17ad671708857a9ed9defb7a8519",
+    "result.json": "653c9620e75ac0e10ac48b1a27238e4511104d1ffa950d27430c92bbb5cd173b",
+    "crops/0001.png": "fd3873f8af329b1edce0f373ba5ae9640c08d35370fe1f5a4517bb3ed8a5ff4d",
+    "crops/0002.png": "c1802e460ad550bcef42f591a004d8e5b6bb267874ac43784e1669165e83b976",
+    "crops/0005.png": "e54b51de93c67b71473abb7cfcfc5bc2eeb75df12915dedf98982dfcac2f44ca",
+    "crops/0006.png": "28fd6b1782219ccf6bafa6abc52082edc4009511d24262cc9eac77c03804fd76",
+    "crops/0007.png": "166ef3fe18579f673500545f2f93a5b911e6cc538561e2a81d35a08f2a0a5828"
+  }
+}

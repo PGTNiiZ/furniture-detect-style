@@ -1,0 +1,23 @@
+{
+  "source_split": "train",
+  "rows": 8378,
+  "method": "64-bit dHash, exhaustive Hamming distance",
+  "threshold": 4,
+  "examined_pairs": 35091253,
+  "candidate_pairs": 123,
+  "cross_split_pairs": 0,
+  "exact_pixel_pairs": 0,
+  "candidates_by_split": {
+    "train/train": 114,
+    "val/val": 5,
+    "test/test": 4
+  },
+  "truncated": false,
+  "manifest_sha256": {
+    "train": "0060336ce705d814bf3b447a05d4773325c0ee13cce452fe919af1ef0adfdbac",
+    "val": "e378d884101342d80a497e2bb8b4ac749852a330a3fa198d93f964b31267e88d",
+    "test": "bc83a11fc2edaa4492fcf10af76b44ae0e39244d911899cd9b3a7742b1122bd9"
+  },
+  "candidates_csv": "artifacts\\furniture-v2-conservative-near-audit.csv",
+  "note": "Candidates require human review; dHash proximity does not prove shared product identity. External source test was excluded from pair comparison."
+}

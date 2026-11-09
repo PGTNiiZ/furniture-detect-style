@@ -1,0 +1,17 @@
+{
+  "storage_mode": "zip",
+  "archive_path": "${FURNITURE_ARCHIVE}",
+  "archive_prefix": "furniture_dataset/data/processed/",
+  "manifest_path": "${FURNITURE_MANIFEST}",
+  "snapshot_id": "REPLACE_WITH_AUDITED_SNAPSHOT_ID",
+  "batch_size": 16,
+  "num_workers": 2,
+  "prefetch_factor": 2,
+  "persistent_workers": true,
+  "shuffle": true,
+  "drop_last": false,
+  "seed": 42,
+  "image_size": 224,
+  "augment": false,
+  "corrupt_image_policy": "error"
+}

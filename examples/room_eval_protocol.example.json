@@ -1,0 +1,14 @@
+{
+  "version": "room-eval-v1",
+  "status": "draft",
+  "locked_at_utc": null,
+  "development_reference": null,
+  "independent_from_classifier_training": false,
+  "confidence": 0.25,
+  "iou_threshold": 0.5,
+  "crop_padding_fraction": 0.05,
+  "min_crop_size": 2,
+  "detector_to_category": {"bed": "bed", "chair": "chair", "couch": "sofa", "dining table": "table"},
+  "matching": "class-agnostic greedy one-to-one by descending IoU",
+  "notes": "Draft only: validate thresholds on independent development data and lock before final predictions."
+}

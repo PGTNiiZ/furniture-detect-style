@@ -1,0 +1,48 @@
+{
+  "environment": "existing research-clean-env CPU; no new installation",
+  "verification": "zero tensor forward, not a research metric",
+  "results": [
+    {
+      "backbone": "convnext_tiny",
+      "heads": {
+        "type": [
+          1,
+          4
+        ],
+        "style": [
+          1,
+          37
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "backbone": "resnet50",
+      "heads": {
+        "type": [
+          1,
+          4
+        ],
+        "style": [
+          1,
+          37
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "backbone": "densenet121",
+      "heads": {
+        "type": [
+          1,
+          4
+        ],
+        "style": [
+          1,
+          37
+        ]
+      },
+      "status": "passed"
+    }
+  ]
+}

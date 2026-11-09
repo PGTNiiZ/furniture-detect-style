@@ -1,0 +1,122 @@
+{
+  "protocol_version": "external-source-closed-set-v1",
+  "train_manifest_sha256": "0060336ce705d814bf3b447a05d4773325c0ee13cce452fe919af1ef0adfdbac",
+  "external_manifest_sha256": "6fcfd767737783fafa0113993252a7d473e44c998d5e3c9ade521811182da701",
+  "class_mapping": {
+    "type": {
+      "bed": 0,
+      "chair": 1,
+      "sofa": 2,
+      "table": 3
+    },
+    "style": {
+      "architectural": 0,
+      "baroque": 1,
+      "bauhaus": 2,
+      "biomorphic": 3,
+      "bohemian": 4,
+      "brutalist": 5,
+      "classic": 6,
+      "classical": 7,
+      "coastal": 8,
+      "colonial": 9,
+      "deco": 10,
+      "deconstructed": 11,
+      "eclectic": 12,
+      "ergonomic": 13,
+      "futuristic": 14,
+      "gothic": 15,
+      "hightech": 16,
+      "industrial": 17,
+      "italian": 18,
+      "japanese": 19,
+      "minimal": 20,
+      "minimalist": 21,
+      "modern": 22,
+      "nordic": 23,
+      "organic": 24,
+      "parametric": 25,
+      "postmodern": 26,
+      "primitive": 27,
+      "provincial": 28,
+      "retro": 29,
+      "rustic": 30,
+      "scandinavian": 31,
+      "sculptural": 32,
+      "streamline": 33,
+      "traditional": 34,
+      "victorian": 35,
+      "zen": 36
+    }
+  },
+  "annotation_inspection": {
+    "images": 1000,
+    "counts": {
+      "type": {
+        "missing": 1,
+        "known": 995,
+        "unseen": 4
+      },
+      "style": {
+        "missing": 1,
+        "known": 863,
+        "unseen": 136
+      }
+    },
+    "unseen_labels": {
+      "type": {
+        "cabinet": 1,
+        "coffee table": 1,
+        "ottoman": 1,
+        "stool": 1
+      },
+      "style": {
+        "adirondack": 4,
+        "artistic": 2,
+        "beach": 2,
+        "beach chair": 1,
+        "bistro": 3,
+        "boho": 1,
+        "camping": 1,
+        "cartoon": 1,
+        "casual": 11,
+        "chesterfield": 2,
+        "clinical": 1,
+        "contemporary": 36,
+        "director's chair": 1,
+        "directors chair": 1,
+        "foldable": 2,
+        "folding": 2,
+        "folding camping chair": 1,
+        "french classical": 1,
+        "french provincial": 3,
+        "futon": 1,
+        "gaming": 3,
+        "medical": 1,
+        "mid-century": 1,
+        "mid-century modern": 31,
+        "minimalistic": 1,
+        "modern office": 1,
+        "modern rustic": 1,
+        "modern scandinavian": 1,
+        "modular": 1,
+        "outdoor": 3,
+        "portable": 1,
+        "racing": 1,
+        "rattan": 1,
+        "recliner": 6,
+        "reclining": 1,
+        "rugged": 1,
+        "safari": 1,
+        "sports": 1,
+        "transitional": 1,
+        "upholstered": 1
+      }
+    },
+    "known_both": 859
+  },
+  "label_policy": "exact label matching; no canonicalization or unknown rejection",
+  "metrics_policy": "per-task known-label subset; joint requires both known",
+  "selection_policy": "never use external source test for model or threshold selection",
+  "annotation_provenance": "Source card reports Qwen2 VL 72B labels and possible inconsistencies; human or expert verification is not stated. Results compare to source annotations, not expert ground truth."
+}

@@ -1,0 +1,5 @@
+filename,category,design_style,product_id,split
+chair_001_a.jpg,chair,modern,catalogA-chair001,train
+chair_001_b.jpg,chair,modern,catalogA-chair001,train
+table_021.jpg,table,rustic,catalogA-table021,val
+chair_031.jpg,chair,modern,catalogA-chair031,test

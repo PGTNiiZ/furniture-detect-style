@@ -1,0 +1,21 @@
+{
+  "package": {
+    "zip": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\.pip-temp\\room-extracted-inference-demo.zip",
+    "files": 907,
+    "sha256": "c08ab5f60d08a4ccfee7d639d2779beb389ee108502a91eb6528987b0d59a412"
+  },
+  "verification": {
+    "checkpoint_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+    "sample_id": "train-0000252",
+    "split": "train",
+    "device": "cpu",
+    "extracted_package_inference": "passed",
+    "room_inference": {
+      "status": "passed",
+      "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "classified_objects": 5,
+      "environment": "existing separate research-clean-env; no new installation"
+    },
+    "checkpoint_role": "completed screening checkpoint for demonstration; not final selection"
+  }
+}

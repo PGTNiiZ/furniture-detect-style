@@ -1,0 +1,19 @@
+id: furniture-v2-conservative
+root: data/furniture-v2-conservative
+source:
+  kind: prepared
+  dataset_id: filnow/furniture-synthetic-dataset
+  revision: 3582bc71ff1eec35e3283c899049c8a44c024d30
+  csv_file: null
+  image_root: null
+  columns:
+    image_path: image_path
+    type: type
+    style: style
+    group_id: null
+    split: null
+split:
+  seed: 42
+  val_fraction: 0.15
+  test_fraction: 0.15
+  previous_root: null

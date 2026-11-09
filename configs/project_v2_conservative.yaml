@@ -1,0 +1,18 @@
+schema_version: 1
+project_root: ..
+output_root: artifacts/runs
+default_experiment: C3
+dataset: datasets/furniture-v2-conservative.yaml
+model: models/resnet18.yaml
+training: training/controlled.yaml
+augmentation: augmentation/none_off.yaml
+inference: inference/default.yaml
+experiments:
+- experiments/C1.yaml
+- experiments/C2.yaml
+- experiments/C3.yaml
+- experiments/C4.yaml
+- experiments/C5.yaml
+- experiments/C6.yaml
+- experiments/C7.yaml
+- experiments/C8.yaml

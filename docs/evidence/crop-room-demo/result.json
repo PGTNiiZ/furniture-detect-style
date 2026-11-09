@@ -1,0 +1,714 @@
+{
+  "image_id": "pexels-6312360",
+  "image_path": "artifacts/room-inference-demo/source.jpg",
+  "objects": [
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "0",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "clock",
+      "detector_confidence": 0.8580847978591919,
+      "detector_type": "clock",
+      "raw_bbox_xyxy": [
+        183.2860107421875,
+        56.621307373046875,
+        447.15826416015625,
+        302.80267333984375
+      ],
+      "bbox_xyxy": [
+        183,
+        56,
+        448,
+        303
+      ],
+      "crop_xyxy": [
+        169,
+        43,
+        462,
+        316
+      ],
+      "category": null,
+      "category_confidence": null,
+      "category_top_k": [],
+      "style": null,
+      "style_confidence": null,
+      "style_top_k": [],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": null,
+      "status": "unmapped_detector_label",
+      "error": "Detector label has no supported category mapping"
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "1",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "couch",
+      "detector_confidence": 0.7502805590629578,
+      "detector_type": "couch",
+      "raw_bbox_xyxy": [
+        693.180419921875,
+        501.9809265136719,
+        1279.22412109375,
+        845.2659301757812
+      ],
+      "bbox_xyxy": [
+        693,
+        501,
+        1280,
+        846
+      ],
+      "crop_xyxy": [
+        663,
+        483,
+        1280,
+        853
+      ],
+      "category": "bed",
+      "category_confidence": 0.942379891872406,
+      "category_top_k": [
+        {
+          "label": "bed",
+          "confidence": 0.942379891872406
+        },
+        {
+          "label": "sofa",
+          "confidence": 0.049696940928697586
+        },
+        {
+          "label": "table",
+          "confidence": 0.007894427515566349
+        }
+      ],
+      "style": "industrial",
+      "style_confidence": 0.4431103467941284,
+      "style_top_k": [
+        {
+          "label": "industrial",
+          "confidence": 0.4431103467941284
+        },
+        {
+          "label": "rustic",
+          "confidence": 0.2733413279056549
+        },
+        {
+          "label": "brutalist",
+          "confidence": 0.20292988419532776
+        }
+      ],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": "sofa",
+      "crop_file": "crops/0001.png",
+      "type": {
+        "label": "bed",
+        "confidence": 0.942379891872406,
+        "top_k": [
+          {
+            "label": "bed",
+            "confidence": 0.942379891872406
+          },
+          {
+            "label": "sofa",
+            "confidence": 0.049696940928697586
+          },
+          {
+            "label": "table",
+            "confidence": 0.007894427515566349
+          }
+        ]
+      },
+      "style_prediction": {
+        "label": "industrial",
+        "confidence": 0.4431103467941284,
+        "top_k": [
+          {
+            "label": "industrial",
+            "confidence": 0.4431103467941284
+          },
+          {
+            "label": "rustic",
+            "confidence": 0.2733413279056549
+          },
+          {
+            "label": "brutalist",
+            "confidence": 0.20292988419532776
+          }
+        ]
+      },
+      "status": "ok",
+      "category_disagreement": true
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "2",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "chair",
+      "detector_confidence": 0.6388064026832581,
+      "detector_type": "chair",
+      "raw_bbox_xyxy": [
+        24.01361846923828,
+        589.3930053710938,
+        257.788818359375,
+        847.5043334960938
+      ],
+      "bbox_xyxy": [
+        24,
+        589,
+        258,
+        848
+      ],
+      "crop_xyxy": [
+        12,
+        576,
+        270,
+        853
+      ],
+      "category": "chair",
+      "category_confidence": 0.5965372920036316,
+      "category_top_k": [
+        {
+          "label": "chair",
+          "confidence": 0.5965372920036316
+        },
+        {
+          "label": "table",
+          "confidence": 0.31272032856941223
+        },
+        {
+          "label": "sofa",
+          "confidence": 0.08976639062166214
+        }
+      ],
+      "style": "industrial",
+      "style_confidence": 0.4423466622829437,
+      "style_top_k": [
+        {
+          "label": "industrial",
+          "confidence": 0.4423466622829437
+        },
+        {
+          "label": "organic",
+          "confidence": 0.20265580713748932
+        },
+        {
+          "label": "brutalist",
+          "confidence": 0.0718473419547081
+        }
+      ],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": "chair",
+      "crop_file": "crops/0002.png",
+      "type": {
+        "label": "chair",
+        "confidence": 0.5965372920036316,
+        "top_k": [
+          {
+            "label": "chair",
+            "confidence": 0.5965372920036316
+          },
+          {
+            "label": "table",
+            "confidence": 0.31272032856941223
+          },
+          {
+            "label": "sofa",
+            "confidence": 0.08976639062166214
+          }
+        ]
+      },
+      "style_prediction": {
+        "label": "industrial",
+        "confidence": 0.4423466622829437,
+        "top_k": [
+          {
+            "label": "industrial",
+            "confidence": 0.4423466622829437
+          },
+          {
+            "label": "organic",
+            "confidence": 0.20265580713748932
+          },
+          {
+            "label": "brutalist",
+            "confidence": 0.0718473419547081
+          }
+        ]
+      },
+      "status": "ok",
+      "category_disagreement": false
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "3",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "potted plant",
+      "detector_confidence": 0.6118266582489014,
+      "detector_type": "potted plant",
+      "raw_bbox_xyxy": [
+        183.92417907714844,
+        369.1242370605469,
+        480.362548828125,
+        630.7578735351562
+      ],
+      "bbox_xyxy": [
+        183,
+        369,
+        481,
+        631
+      ],
+      "crop_xyxy": [
+        168,
+        355,
+        496,
+        645
+      ],
+      "category": null,
+      "category_confidence": null,
+      "category_top_k": [],
+      "style": null,
+      "style_confidence": null,
+      "style_top_k": [],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": null,
+      "status": "unmapped_detector_label",
+      "error": "Detector label has no supported category mapping"
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "4",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "vase",
+      "detector_confidence": 0.5797882080078125,
+      "detector_type": "vase",
+      "raw_bbox_xyxy": [
+        299.0015869140625,
+        499.5815124511719,
+        382.345458984375,
+        628.123046875
+      ],
+      "bbox_xyxy": [
+        299,
+        499,
+        383,
+        629
+      ],
+      "crop_xyxy": [
+        294,
+        492,
+        388,
+        636
+      ],
+      "category": null,
+      "category_confidence": null,
+      "category_top_k": [],
+      "style": null,
+      "style_confidence": null,
+      "style_top_k": [],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": null,
+      "status": "unmapped_detector_label",
+      "error": "Detector label has no supported category mapping"
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "5",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "dining table",
+      "detector_confidence": 0.4399225115776062,
+      "detector_type": "dining table",
+      "raw_bbox_xyxy": [
+        140.73907470703125,
+        594.9243774414062,
+        735.4955444335938,
+        760.8936157226562
+      ],
+      "bbox_xyxy": [
+        140,
+        594,
+        736,
+        761
+      ],
+      "crop_xyxy": [
+        110,
+        585,
+        766,
+        770
+      ],
+      "category": "bed",
+      "category_confidence": 0.6283299326896667,
+      "category_top_k": [
+        {
+          "label": "bed",
+          "confidence": 0.6283299326896667
+        },
+        {
+          "label": "table",
+          "confidence": 0.3659557104110718
+        },
+        {
+          "label": "sofa",
+          "confidence": 0.005115022417157888
+        }
+      ],
+      "style": "brutalist",
+      "style_confidence": 0.5050702691078186,
+      "style_top_k": [
+        {
+          "label": "brutalist",
+          "confidence": 0.5050702691078186
+        },
+        {
+          "label": "hightech",
+          "confidence": 0.10067038983106613
+        },
+        {
+          "label": "futuristic",
+          "confidence": 0.09315243363380432
+        }
+      ],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": "table",
+      "crop_file": "crops/0005.png",
+      "type": {
+        "label": "bed",
+        "confidence": 0.6283299326896667,
+        "top_k": [
+          {
+            "label": "bed",
+            "confidence": 0.6283299326896667
+          },
+          {
+            "label": "table",
+            "confidence": 0.3659557104110718
+          },
+          {
+            "label": "sofa",
+            "confidence": 0.005115022417157888
+          }
+        ]
+      },
+      "style_prediction": {
+        "label": "brutalist",
+        "confidence": 0.5050702691078186,
+        "top_k": [
+          {
+            "label": "brutalist",
+            "confidence": 0.5050702691078186
+          },
+          {
+            "label": "hightech",
+            "confidence": 0.10067038983106613
+          },
+          {
+            "label": "futuristic",
+            "confidence": 0.09315243363380432
+          }
+        ]
+      },
+      "status": "ok",
+      "category_disagreement": true
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "6",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "dining table",
+      "detector_confidence": 0.34768441319465637,
+      "detector_type": "dining table",
+      "raw_bbox_xyxy": [
+        145.87872314453125,
+        586.0182495117188,
+        741.7197265625,
+        821.963623046875
+      ],
+      "bbox_xyxy": [
+        145,
+        586,
+        742,
+        822
+      ],
+      "crop_xyxy": [
+        115,
+        574,
+        772,
+        834
+      ],
+      "category": "table",
+      "category_confidence": 0.7724292278289795,
+      "category_top_k": [
+        {
+          "label": "table",
+          "confidence": 0.7724292278289795
+        },
+        {
+          "label": "bed",
+          "confidence": 0.1875115931034088
+        },
+        {
+          "label": "sofa",
+          "confidence": 0.039895374327898026
+        }
+      ],
+      "style": "brutalist",
+      "style_confidence": 0.8911592960357666,
+      "style_top_k": [
+        {
+          "label": "brutalist",
+          "confidence": 0.8911592960357666
+        },
+        {
+          "label": "hightech",
+          "confidence": 0.0425134114921093
+        },
+        {
+          "label": "coastal",
+          "confidence": 0.012402485124766827
+        }
+      ],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": "table",
+      "crop_file": "crops/0006.png",
+      "type": {
+        "label": "table",
+        "confidence": 0.7724292278289795,
+        "top_k": [
+          {
+            "label": "table",
+            "confidence": 0.7724292278289795
+          },
+          {
+            "label": "bed",
+            "confidence": 0.1875115931034088
+          },
+          {
+            "label": "sofa",
+            "confidence": 0.039895374327898026
+          }
+        ]
+      },
+      "style_prediction": {
+        "label": "brutalist",
+        "confidence": 0.8911592960357666,
+        "top_k": [
+          {
+            "label": "brutalist",
+            "confidence": 0.8911592960357666
+          },
+          {
+            "label": "hightech",
+            "confidence": 0.0425134114921093
+          },
+          {
+            "label": "coastal",
+            "confidence": 0.012402485124766827
+          }
+        ]
+      },
+      "status": "ok",
+      "category_disagreement": false
+    },
+    {
+      "image_id": "pexels-6312360",
+      "object_id": "7",
+      "image_size": {
+        "width": 1280,
+        "height": 853
+      },
+      "detector_label": "couch",
+      "detector_confidence": 0.32624125480651855,
+      "detector_type": "couch",
+      "raw_bbox_xyxy": [
+        462.3291015625,
+        527.4212646484375,
+        1280.0,
+        845.1480102539062
+      ],
+      "bbox_xyxy": [
+        462,
+        527,
+        1280,
+        846
+      ],
+      "crop_xyxy": [
+        421,
+        511,
+        1280,
+        853
+      ],
+      "category": "sofa",
+      "category_confidence": 0.8976161479949951,
+      "category_top_k": [
+        {
+          "label": "sofa",
+          "confidence": 0.8976161479949951
+        },
+        {
+          "label": "bed",
+          "confidence": 0.07787492871284485
+        },
+        {
+          "label": "table",
+          "confidence": 0.02428668737411499
+        }
+      ],
+      "style": "brutalist",
+      "style_confidence": 0.3355866074562073,
+      "style_top_k": [
+        {
+          "label": "brutalist",
+          "confidence": 0.3355866074562073
+        },
+        {
+          "label": "industrial",
+          "confidence": 0.25267478823661804
+        },
+        {
+          "label": "modern",
+          "confidence": 0.14453625679016113
+        }
+      ],
+      "provenance": {
+        "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+        "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+        "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+        "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+        "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+        "config_version": "room-inference-v1"
+      },
+      "mapped_detector_category": "sofa",
+      "crop_file": "crops/0007.png",
+      "type": {
+        "label": "sofa",
+        "confidence": 0.8976161479949951,
+        "top_k": [
+          {
+            "label": "sofa",
+            "confidence": 0.8976161479949951
+          },
+          {
+            "label": "bed",
+            "confidence": 0.07787492871284485
+          },
+          {
+            "label": "table",
+            "confidence": 0.02428668737411499
+          }
+        ]
+      },
+      "style_prediction": {
+        "label": "brutalist",
+        "confidence": 0.3355866074562073,
+        "top_k": [
+          {
+            "label": "brutalist",
+            "confidence": 0.3355866074562073
+          },
+          {
+            "label": "industrial",
+            "confidence": 0.25267478823661804
+          },
+          {
+            "label": "modern",
+            "confidence": 0.14453625679016113
+          }
+        ]
+      },
+      "status": "ok",
+      "category_disagreement": false
+    }
+  ],
+  "provenance": {
+    "detector_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\detector-baselines\\yolov8n-coco-v8.3.0\\yolov8n.pt",
+    "detector_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+    "classifier_checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+    "classifier_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+    "config": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\configs\\inference\\room-yolov8n-coco-baseline.yaml",
+    "config_sha256": "c4e0ef6ca69c9d81686dc1513a8587c73fc6e677dd0df79c0e2a43f5d7a55aba",
+    "config_version": "room-inference-v1"
+  },
+  "crop_padding_fraction": 0.05,
+  "coordinate_system": "xyxy in EXIF-oriented image; right/bottom exclusive",
+  "note": "Detector and classifier scores are separate; classifier softmax is not calibrated compatibility.",
+  "image_size": {
+    "width": 1280,
+    "height": 853
+  },
+  "status": "ok"
+}

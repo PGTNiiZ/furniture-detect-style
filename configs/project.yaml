@@ -1,0 +1,13 @@
+schema_version: 1
+project_root: ..
+output_root: artifacts/runs
+default_experiment: E2
+dataset: datasets/furniture_hf.yaml
+model: models/resnet18.yaml
+training: training/default.yaml
+augmentation: augmentation/none.yaml
+inference: inference/default.yaml
+experiments:
+- experiments/E1.yaml
+- experiments/E2.yaml
+- experiments/E3.yaml

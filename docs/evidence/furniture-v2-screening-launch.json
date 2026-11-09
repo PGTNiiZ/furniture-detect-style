@@ -1,0 +1,10 @@
+{
+    "manifest":  "artifacts\\runs\\suites\\furniture-v2-screening.json",
+    "launcher_pid":  27520,
+    "stdout":  "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\suites\\furniture-v2-screening.stdout.log",
+    "command":  "python -m furniture.cli suite --config configs/project_v2_conservative.yaml --stage screening --manifest artifacts/runs/suites/furniture-v2-screening.json",
+    "stderr":  "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\suites\\furniture-v2-screening.stderr.log",
+    "planned_backbones":  10,
+    "dataset":  "furniture-v2-conservative",
+    "launched_utc":  "2026-11-02T21:04:15.6382044Z"
+}

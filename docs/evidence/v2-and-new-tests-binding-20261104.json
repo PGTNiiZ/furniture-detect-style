@@ -1,0 +1,13 @@
+{
+  "result": "passed",
+  "passed": 166,
+  "warnings": 65,
+  "seconds": 165.4,
+  "command": "python -m pytest -q tests new_data",
+  "log": "docs\\evidence\\v2-and-new-tests-20261104.txt",
+  "log_sha256": "c72d5dac47a4f81c7b801f03e3b760addb7799e04cfdd25698bad18640b5a4a3",
+  "code_files": 144,
+  "before_sha256": "c26dd9a5bdbfb9e2cee96bbce343d8f57933a17f2db578a434e39a488da0a4e1",
+  "code_unchanged_during_tests": true,
+  "note": "Independent combined evidence; existing v2 finalizer binding remains unchanged."
+}

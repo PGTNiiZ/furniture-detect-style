@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "basis": "furniture-project2-research-20261102.zip",
+  "environment": {"torch": "2.7.1+cu128", "torchvision": "0.22.1+cu128", "cuda_runtime": "12.8", "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"},
+  "full_suite": {"result": "96 passed", "skipped": 0, "failed": 0, "command": ".venv\\Scripts\\python.exe -m pytest -q --basetemp .pip-temp\\pcomplete-final"},
+  "targeted_integrated": {"result": "21 passed", "tests": ["robustness comparison axes", "running process recovery", "suite retry and manifest", "CLI workflows"]},
+  "pretrained_verified": {"count": 10, "evidence": "docs/evidence/pretrained-verification-10.json", "scope": "weights loading and forward with controlled input; not training or accuracy"},
+  "clean_environment": {"installed":true, "pip_check":"passed", "artificial_cpu_smoke":"passed", "guard_tests":"20 passed", "evidence":"docs/evidence/clean-environment.json"},
+  "data_inspection": {"source_rows":10000, "complete_label_rows":9999, "missing_label_rows":1, "external_source_test_used_for_model_selection":false, "blocking_issues":"Unseen labels in source test; 240 train/validation dHash candidate pairs require human review", "evidence":"docs/evidence/full-source-inspection.json"},
+  "not_verified": ["full dataset snapshot validation", "pretrained full screening training", "held-out test evaluation", "real-room evaluation", "human recommendation quality"],
+  "note":"Results from previous synthetic smoke runs are not project accuracy. A successful installation or test suite does not clear the dataset blockers."
+}

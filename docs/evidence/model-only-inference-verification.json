@@ -1,0 +1,18 @@
+{
+  "checkpoint": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210424Z-17073268\\best.pt",
+  "checkpoint_sha256": "b3b577c2eb037e3b4d2bda4c5f5f8bcf1873e98972f53b769415ac0f719d2b6a",
+  "checkpoint_role": "completed screening checkpoint, technical verification only, not selected for release",
+  "cpu_csv_train_images": 2,
+  "cpu_csv_all_ok": true,
+  "sample_ids": [
+    "train-0000252",
+    "train-0000490"
+  ],
+  "cpu_transparent_ok": true,
+  "cuda_folder_statuses": {
+    "broken.jpg": "error",
+    "transparent.png": "ok"
+  },
+  "cuda_folder_exit_code": 1,
+  "interpretation": "Inference implementation verification only; no test images or research metrics used."
+}

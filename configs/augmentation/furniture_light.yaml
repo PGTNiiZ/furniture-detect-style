@@ -1,0 +1,7 @@
+enabled: true
+horizontal_flip_p: 0.5
+rotation_degrees: 5.0
+brightness: 0.1
+contrast: 0.1
+saturation: 0.0
+hue: 0.0

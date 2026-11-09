@@ -1,0 +1,12 @@
+# Replace path and annotate ALL splits before training.
+path: data/rooms
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: chair
+  1: couch
+  2: bed
+  3: dining table
+# Matching annotation tree: labels/train, labels/val, labels/test.
+# YOLO label row: class_id center_x center_y width height (normalized 0..1).

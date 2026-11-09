@@ -1,0 +1,19 @@
+id: artificial-smoke
+root: data/smoke
+source:
+  kind: prepared
+  dataset_id: null
+  revision: null
+  csv_file: null
+  image_root: null
+  columns:
+    image_path: image_path
+    type: type
+    style: style
+    group_id: null
+    split: null
+split:
+  seed: 42
+  val_fraction: 0.15
+  test_fraction: 0.15
+  previous_root: null

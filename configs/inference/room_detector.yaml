@@ -1,0 +1,24 @@
+project_root: ../..
+weights: yolov8n.pt
+data: configs/detection.example.yaml
+output_root: artifacts/detectors
+train:
+  epochs: 50
+  batch: 8
+  imgsz: 640
+  device: auto
+  seed: 42
+  workers: 0
+  optimizer: AdamW
+  lr0: 0.001
+augmentation:
+  fliplr: 0.5
+  flipud: 0.0
+  degrees: 5.0
+  translate: 0.05
+  scale: 0.1
+  hsv_h: 0.0
+  hsv_s: 0.0
+  hsv_v: 0.1
+  mosaic: 0.0
+  mixup: 0.0

@@ -1,0 +1,71 @@
+{
+  "source_revision": "3582bc71ff1eec35e3283c899049c8a44c024d30",
+  "complete_rows": 9999,
+  "split_counts": {
+    "train": 6330,
+    "val": 1436,
+    "test": 2233
+  },
+  "source_counts": {
+    "train": {
+      "train": 6330
+    },
+    "val": {
+      "train": 1436
+    },
+    "test": {
+      "train": 1234,
+      "test": 999
+    }
+  },
+  "excluded": {
+    "policy": "exclude_incomplete_labels",
+    "source_counts": {
+      "train": 9000,
+      "test": 1000
+    },
+    "excluded_count": 1,
+    "excluded_by_source_split": {
+      "test": 1
+    },
+    "excluded_by_label": {
+      "type": 1,
+      "style": 1
+    },
+    "excluded": [
+      {
+        "image_id": "test-0000175",
+        "source_split": "test",
+        "reason": "missing_required_label",
+        "missing_labels": [
+          "type",
+          "style"
+        ]
+      }
+    ]
+  },
+  "unseen_test_label_counts": {
+    "type": 4,
+    "style": 136
+  },
+  "unseen_test_label_types": {
+    "type": 4,
+    "style": 40
+  },
+  "development_near_duplicates": {
+    "threshold": 4,
+    "comparisons": 250000,
+    "pairs": 72,
+    "cross_split_pairs": 0,
+    "truncated": true
+  },
+  "manifest_sha256": {
+    "train": "42cf5430e6be16b91186d148129ba89fe124833c1f82f12d604ea46a1366c152",
+    "val": "f9974dbce027b5d73e9d68d478989a4b11915011cea8e8ae23ec3885d9b1c02b",
+    "test": "ea1ff85ed722b2d734e1d8455f3109d6029df1ee292dcb75aaa9b6ff72f331a6"
+  },
+  "limitations": [
+    "Source product groups unavailable; near duplicate candidates are not reviewed.",
+    "No predictions or test metrics were computed."
+  ]
+}

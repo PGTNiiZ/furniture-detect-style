@@ -1,0 +1,150 @@
+{
+  "started_at": "2026-11-02T10:39:18.456074+00:00",
+  "torch": "2.7.1+cu128",
+  "torchvision": "0.22.1+cu128",
+  "device": "cuda",
+  "models": {
+    "resnet18": {
+      "status": "passed",
+      "weights": "ResNet18_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "feature_dim": 512,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "resnet50": {
+      "status": "passed",
+      "weights": "ResNet50_Weights.IMAGENET1K_V2",
+      "weights_url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth",
+      "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+      "feature_dim": 2048,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "densenet121": {
+      "status": "passed",
+      "weights": "DenseNet121_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/densenet121-a639ec97.pth",
+      "sha256": "a639ec97d7c33b07ae66f0b5fb7d0192f95a3b11b7576c66c0126c2a727c4395",
+      "feature_dim": 1024,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "efficientnet_b0": {
+      "status": "passed",
+      "weights": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth",
+      "sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
+      "feature_dim": 1280,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "efficientnet_b2": {
+      "status": "passed",
+      "weights": "EfficientNet_B2_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/efficientnet_b2_rwightman-c35c1473.pth",
+      "sha256": "c35c147384e385a5bab5a8eabdabbe5a3df0487ee4a554108626ae474a5bf755",
+      "feature_dim": 1408,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "mobilenet_v3_large": {
+      "status": "passed",
+      "weights": "MobileNet_V3_Large_Weights.IMAGENET1K_V2",
+      "weights_url": "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth",
+      "sha256": "5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997",
+      "feature_dim": 1280,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "regnet_y_400mf": {
+      "status": "passed",
+      "weights": "RegNet_Y_400MF_Weights.IMAGENET1K_V2",
+      "weights_url": "https://download.pytorch.org/models/regnet_y_400mf-e6988f5f.pth",
+      "sha256": "e6988f5f63bacaf2c7892bc976124af9a793329c69cff22f4d5e0d262b99eb3d",
+      "feature_dim": 440,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "convnext_tiny": {
+      "status": "passed",
+      "weights": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/convnext_tiny-983f1562.pth",
+      "sha256": "983f1562536e84ff750a1576fb08e54de751dbf2e17c0d8a4a13704341fdcd3d",
+      "feature_dim": 768,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "swin_t": {
+      "status": "passed",
+      "weights": "Swin_T_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/swin_t-704ceda3.pth",
+      "sha256": "704ceda373461b0a224fcdddd75cd2a5e9f8064512ed47adbddef7f343fd147b",
+      "feature_dim": 768,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    },
+    "vit_b_16": {
+      "status": "passed",
+      "weights": "ViT_B_16_Weights.IMAGENET1K_V1",
+      "weights_url": "https://download.pytorch.org/models/vit_b_16-c867db91.pth",
+      "sha256": "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9",
+      "feature_dim": 768,
+      "input_shape": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "device": "cuda"
+    }
+  },
+  "note": "Pretrained initialization and forward check only; no training or accuracy evaluation.",
+  "ended_at": "2026-11-02T10:45:13.273371+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "tests": {
+    "command": ".venv\\Scripts\\python.exe -m pytest -q tests/test_model_inference.py tests/test_model_release_workflow.py tests/test_finalize_model_release.py --basetemp .pip-temp\\model-only-final-tests5",
+    "passed": 11,
+    "duration_seconds": 12.41,
+    "scope": "inference, detector crop mocks, frozen-selection ordering, and finalization safeguards"
+  },
+  "prior_full_suite": {
+    "passed": 113,
+    "evidence": "docs/evidence/furniture-v2-pytest.txt"
+  },
+  "notebook": "All code cells executed with one completed screening checkpoint on 3 train images; not a test evaluation",
+  "real_checkpoint_inference": "docs/evidence/model-only-inference-verification.json",
+  "notes": [
+    "CPU image and CSV input and CUDA folder input executed after the inference refactor",
+    "Detector checkpoint absent; detector crop routing tested with a mock, not real detector weights",
+    "No selected checkpoint or research test result existed when this evidence was written"
+  ],
+  "status": "historical: superseded by combined run bound to the current code",
+  "superseded_by": "docs/evidence/model-only-test-binding.json"
+}

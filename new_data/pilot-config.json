@@ -1,0 +1,22 @@
+{
+  "snapshot": "artifacts/zip-conservative-snapshot-v2",
+  "verification_file": "verification-v2.json",
+  "archive_path": "${FURNITURE_ARCHIVE}",
+  "v2_root": "data/furniture-v2-conservative",
+  "baseline_selection": "artifacts/model-only-release/selection-frozen.json",
+  "augmentation": "configs/augmentation/easy_strong.yaml",
+  "torch_home": ".pip-temp/torch-cache",
+  "weights_sha256": "a639ec97d7c33b07ae66f0b5fb7d0192f95a3b11b7576c66c0126c2a727c4395",
+  "backbone": "densenet121",
+  "condition": "C6",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "seed": 42,
+  "epochs": 3,
+  "freeze_epochs": 2,
+  "head_lr": 0.001,
+  "finetune_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "loss_weights": {"type": 1.0, "style": 1.0}
+}

@@ -1,0 +1,83 @@
+{
+  "scope": "one pretrained backward and AdamW update on audited train only; no metrics or checkpoint",
+  "snapshot_protocol": "furniture-dataset-2.0",
+  "train_manifest_sha256": "0060336ce705d814bf3b447a05d4773325c0ee13cce452fe919af1ef0adfdbac",
+  "training_audit": {
+    "status": "pass_conservative_quarantine",
+    "closed_set": true,
+    "group_overlap_count": 0,
+    "exact_overlap_count": 0,
+    "remaining_cross_split_candidate_count": 0,
+    "unresolved_candidate_pairs_before_quarantine": 494,
+    "human_review_complete": false
+  },
+  "sample_ids": [
+    "train-0000252",
+    "train-0000490"
+  ],
+  "device": "cuda",
+  "torch": "2.7.1+cu128",
+  "batch_size": 2,
+  "models": {
+    "resnet18": {
+      "status": "passed",
+      "weights": "ResNet18_Weights.IMAGENET1K_V1",
+      "feature_dim": 512,
+      "peak_gpu_bytes": 245195264
+    },
+    "resnet50": {
+      "status": "passed",
+      "weights": "ResNet50_Weights.IMAGENET1K_V2",
+      "feature_dim": 2048,
+      "peak_gpu_bytes": 499211264
+    },
+    "densenet121": {
+      "status": "passed",
+      "weights": "DenseNet121_Weights.IMAGENET1K_V1",
+      "feature_dim": 1024,
+      "peak_gpu_bytes": 313904640
+    },
+    "efficientnet_b0": {
+      "status": "passed",
+      "weights": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+      "feature_dim": 1280,
+      "peak_gpu_bytes": 217314816
+    },
+    "efficientnet_b2": {
+      "status": "passed",
+      "weights": "EfficientNet_B2_Weights.IMAGENET1K_V1",
+      "feature_dim": 1408,
+      "peak_gpu_bytes": 321772544
+    },
+    "mobilenet_v3_large": {
+      "status": "passed",
+      "weights": "MobileNet_V3_Large_Weights.IMAGENET1K_V2",
+      "feature_dim": 1280,
+      "peak_gpu_bytes": 132952064
+    },
+    "regnet_y_400mf": {
+      "status": "passed",
+      "weights": "RegNet_Y_400MF_Weights.IMAGENET1K_V2",
+      "feature_dim": 440,
+      "peak_gpu_bytes": 107581440
+    },
+    "convnext_tiny": {
+      "status": "passed",
+      "weights": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+      "feature_dim": 768,
+      "peak_gpu_bytes": 580115456
+    },
+    "swin_t": {
+      "status": "passed",
+      "weights": "Swin_T_Weights.IMAGENET1K_V1",
+      "feature_dim": 768,
+      "peak_gpu_bytes": 581750784
+    },
+    "vit_b_16": {
+      "status": "passed",
+      "weights": "ViT_B_16_Weights.IMAGENET1K_V1",
+      "feature_dim": 768,
+      "peak_gpu_bytes": 1744093696
+    }
+  }
+}

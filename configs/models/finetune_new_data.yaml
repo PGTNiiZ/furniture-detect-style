@@ -1,0 +1,7 @@
+backbone: resnet18
+initialization: checkpoint
+checkpoint: artifacts/REPLACE_WITH_PREVIOUS_RUN/best.pt
+checkpoint_scope: backbone
+image_size: 224
+dropout: 0.0
+weights: IMAGENET1K_V1

@@ -1,0 +1,16 @@
+seed: 42
+batch_size: 32
+epochs: 30
+freeze_epochs: 2
+head_lr: 0.001
+finetune_lr: 0.0001
+weight_decay: 0.0001
+patience: 7
+device: auto
+loss_weights:
+  type: 1.0
+  style: 1.0
+selection_metric: mean_macro_f1
+tasks: [type, style]
+accumulation_steps: 1
+amp: false

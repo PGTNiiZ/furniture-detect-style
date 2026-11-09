@@ -1,0 +1,462 @@
+{
+  "runs": 10,
+  "models": [
+    "convnext_tiny",
+    "densenet121",
+    "efficientnet_b0",
+    "efficientnet_b2",
+    "mobilenet_v3_large",
+    "regnet_y_400mf",
+    "resnet18",
+    "resnet50",
+    "swin_t",
+    "vit_b_16"
+  ],
+  "seeds": [
+    42
+  ],
+  "dataset": "furniture-v2-conservative",
+  "items": [
+    {
+      "id": "screening-resnet18-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet18-C3-42-type-style\\20261102T210406Z-f6217607",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-resnet50-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-resnet50-C3-42-type-style\\20261102T210406Z-26dc3e48",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-densenet121-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-densenet121-C3-42-type-style\\20261102T210406Z-c8276ace",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-efficientnet_b0-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-efficientnet_b0-C3-42-type-style\\20261102T210406Z-9f5deebc",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-efficientnet_b2-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-efficientnet_b2-C3-42-type-style\\20261102T210406Z-a853f0a1",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-mobilenet_v3_large-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-mobilenet_v3_large-C3-42-type-style\\20261102T210406Z-f13dd554",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-regnet_y_400mf-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-regnet_y_400mf-C3-42-type-style\\20261102T210406Z-ab76a666",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-convnext_tiny-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-convnext_tiny-C3-42-type-style\\20261102T210406Z-b753fa76",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-swin_t-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-swin_t-C3-42-type-style\\20261102T210406Z-8001dd64",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    },
+    {
+      "id": "screening-vit_b_16-C3-42-type-style",
+      "output": "D:\\Download\\Download from Chrome\\furniture-project2-code-and-plan\\furniture-project2\\artifacts\\runs\\furniture-v2-conservative\\screening-vit_b_16-C3-42-type-style\\20261102T210407Z-79d589c1",
+      "tasks": [
+        "type",
+        "style"
+      ],
+      "augmentation": {
+        "backend": "albumentations",
+        "preset": "easy",
+        "params": {
+          "horizontal_flip_p": 0.5,
+          "affine_p": 0.3,
+          "rotate_degrees": 5.0,
+          "translate_fraction": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "brightness_contrast_p": 0.3,
+          "brightness_limit": 0.1,
+          "contrast_limit": 0.1,
+          "blur_p": 0.0,
+          "blur_kernel": 3
+        },
+        "occlusion": {
+          "preset": "off",
+          "probability": 0.0,
+          "holes": [
+            1,
+            1
+          ],
+          "height_fraction": [
+            0.05,
+            0.05
+          ],
+          "width_fraction": [
+            0.05,
+            0.05
+          ],
+          "fill": 127
+        }
+      }
+    }
+  ],
+  "note": "Configuration-only plan; data, weights and compute budget are not validated."
+}

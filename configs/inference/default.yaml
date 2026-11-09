@@ -1,0 +1,6 @@
+detector_weights: yolov8n.pt
+detector_confidence: 0.25
+minimum_confidence: 0.6
+keep_threshold: 0.6
+replace_threshold: 0.2
+top_k: 3
