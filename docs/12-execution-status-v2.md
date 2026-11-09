@@ -1,5 +1,8 @@
 # สถานะการตรวจและเริ่ม screening ของ snapshot v2
 
+> **อัปเดต 2026-11-09:** เอกสารนี้เป็นบันทึกของเวลานั้น ปัจจุบัน screening, controlled, ablation และ repeated seeds เสร็จครบแล้ว และได้เลือก DenseNet121 + C6 ดูสถานะล่าสุดที่ [docs/04](04-implementation-status.md) และ [RELEASE_STATUS.md](../RELEASE_STATUS.md)
+
+
 ข้อมูลในไฟล์นี้เป็นสถานะขณะจัดชุดส่งมอบ โปรดดู suite manifest และ run directory ใน workspace สำหรับสถานะล่าสุด
 
 - **Source inspection:** ใช้ ZIP `furniture-project2-research-followup-verified.zip` เป็นฐาน และตรวจเส้นทาง augmentation ใน `train.py`; protocol และข้อจำกัดของข้อมูลอยู่ใน [dataset protocol](10-dataset-protocol-v2.md) และ [audit](11-dataset-audit-v2.md)

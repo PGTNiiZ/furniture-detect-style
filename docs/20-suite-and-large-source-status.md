@@ -1,5 +1,8 @@
 # V2 suite and large-source intake status — 2026-11-04
 
+> **อัปเดต 2026-11-09:** รายงานนี้ถูกต้อง ณ 2026-11-04 ปัจจุบัน repeated seeds เสร็จ 8/8, post-training audit, robustness, synthetic/real-source test และ ZIP ส่งมอบสุดท้ายเสร็จแล้ว (`artifacts/model-only-release/final-delivery.json`) และ ZIP pilot เสร็จ (`artifacts/zip-pilot-c6-v3/status.json`, mean macro-F1 validation 0.588) ส่วนปัญหา `furniture_sources.zip` ขนาดใหญ่ยังไม่ได้รับการแก้
+
+
 This is a point-in-time report. The suite, post-training audit, finalizer and ZIP pilot are separate processes; consult their status files for the latest state.
 
 | Work | Observed status | Evidence / limitation |

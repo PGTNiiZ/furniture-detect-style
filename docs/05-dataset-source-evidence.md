@@ -1,5 +1,8 @@
 # หลักฐานตรวจแหล่งข้อมูลและ preview
 
+> **อัปเดต 2026-11-09:** ข้อความเรื่อง "ยังไม่เริ่ม screening" และ "ไม่ควรเริ่ม screening" เป็นสถานะของ snapshot v1 เมื่อ 2026-11-02 ปัจจุบันใช้ snapshot v2 (`data/furniture-v2-conservative`) ที่ quarantine ภาพที่น่าสงสัยแล้ว และเทรนเสร็จครบ ดู [docs/10](10-dataset-protocol-v2.md) และ [docs/04](04-implementation-status.md)
+
+
 ตรวจเมื่อ 2 พฤศจิกายน 2569 จาก [dataset card](https://huggingface.co/datasets/filnow/furniture-synthetic-dataset): ผู้เผยแพร่ระบุ Apache-2.0, จำนวนทั้งหมด 10,000 ภาพ แบ่ง source train 9,000 ภาพสร้างด้วย Stable Diffusion และ source test 1,000 ภาพถ่ายจริงพร้อม annotations โดย Qwen2 VL; card เตือนว่าป้ายของ test อาจผิดและมีเพียง 4 ประเภท furniture ข้อมูลเป็นคำกล่าวของผู้เผยแพร่ ไม่ใช่ผลการนับจากการดาวน์โหลดทั้งชุด ค่า style เป็น annotation ไม่ใช่การยืนยันจากผู้เชี่ยวชาญ
 
 ตัวอย่าง source train ใน viewer มีคอลัมน์ `image`, `type`, `style` และ `prompt` ซึ่งอาจมี label อยู่ในข้อความ; โค้ด classifier อ่านเฉพาะภาพและ labels จาก manifest ไม่ใช้ prompt เป็น input

@@ -1,5 +1,11 @@
 # Changes
 
+## Team handoff — 2026-11-09
+- Initialized git repository; added `CONTRIBUTING.md` (main/develop/feature branch flow), PR template, CI workflow and `reviews/` for human decision CSVs.
+- Added `docs/21-human-tasks-handoff.md` (tasks that need people) and `docs/22-training-and-model-guide.md` (what was trained, backbone choice, how to train more).
+- Rewrote `docs/04-implementation-status.md` to match the finished experiments; marked older status docs (05, 12, 20) as superseded.
+- No training or evaluation was rerun; v2 results are unchanged.
+
 ## Research follow-up — 2026-11-02
 - Added explicit robustness comparison axes and bound evidence to provenance and the selected validation checkpoint; robustness now defaults to validation.
 - Added guarded orphan recovery with process lock, PID checks and recovery events; suite manifests track attempts, retries, completed-run evidence and frozen dataset split hashes.

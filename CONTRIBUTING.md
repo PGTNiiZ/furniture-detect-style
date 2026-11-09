@@ -40,7 +40,7 @@ git push -u origin data/A1-review-train-val
 | เอกสาร/รายงาน | `docs/<อธิบายสั้น>` | `docs/report-draft` |
 | แก้บั๊ก | `fix/<อธิบายสั้น>` | `fix/loader-path` |
 
-รหัสงาน A–F ดูได้ในเอกสารคู่มือทีม (ลิงก์อยู่ใน README)
+รหัสงาน A–F และรายละเอียดแต่ละงานดูใน [docs/21-human-tasks-handoff.md](docs/21-human-tasks-handoff.md)
 
 ## สิ่งที่ห้ามอัปโหลดเข้า git
 
