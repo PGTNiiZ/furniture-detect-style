@@ -1,0 +1,49 @@
+{
+  "Modern & Minimalist": [
+    "modern",
+    "minimal",
+    "minimalist",
+    "scandinavian",
+    "nordic",
+    "bauhaus",
+    "streamline",
+    "zen",
+    "ergonomic"
+  ],
+  "Classic & Ornamental": [
+    "victorian",
+    "classical",
+    "classic",
+    "baroque",
+    "gothic",
+    "traditional",
+    "colonial",
+    "provincial",
+    "deco"
+  ],
+  "Industrial & Rustic": [
+    "industrial",
+    "brutalist",
+    "rustic",
+    "architectural",
+    "primitive",
+    "deconstructed"
+  ],
+  "Organic & Futuristic": [
+    "organic",
+    "biomorphic",
+    "sculptural",
+    "futuristic",
+    "hightech",
+    "parametric",
+    "postmodern"
+  ],
+  "Cultural & Eclectic": [
+    "bohemian",
+    "eclectic",
+    "retro",
+    "japanese",
+    "italian",
+    "coastal"
+  ]
+}

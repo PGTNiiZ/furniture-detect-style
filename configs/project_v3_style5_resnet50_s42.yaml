@@ -1,0 +1,11 @@
+schema_version: 1
+project_root: ..
+output_root: artifacts/runs
+default_experiment: C6
+dataset: datasets/furniture-v3-style5.yaml
+model: models/resnet50.yaml
+training: training/controlled_s42.yaml
+augmentation: augmentation/none_off.yaml
+inference: inference/default.yaml
+experiments:
+- experiments/C6.yaml
