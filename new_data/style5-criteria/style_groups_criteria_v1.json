@@ -1,0 +1,19 @@
+{
+  "status": "DRAFT proposal - needs human confirmation, not yet used for training",
+  "criteria_source": "user-supplied 5-style criteria text (chatbot-written, not an expert/cited source)",
+  "groups": {
+    "Minimal": ["minimal", "minimalist", "zen", "nordic", "scandinavian", "japanese"],
+    "Modern": ["modern", "bauhaus", "streamline", "hightech", "ergonomic", "futuristic", "postmodern", "biomorphic", "parametric", "sculptural", "deconstructed", "retro"],
+    "Traditional": ["traditional", "classic", "classical", "victorian", "gothic", "colonial", "provincial"],
+    "Luxury": ["deco", "baroque"],
+    "Industrial-Rustic": ["industrial", "brutalist", "rustic", "primitive"]
+  },
+  "undecided_need_human": {
+    "organic": "curves like Modern, but natural/rustic materials possible",
+    "architectural": "Modern or Industrial?",
+    "coastal": "no matching group (light/natural -> Minimal? rattan/rustic -> Industrial-Rustic?)",
+    "bohemian": "no matching group (Traditional ornament? none?)",
+    "eclectic": "no matching group by definition",
+    "italian": "Luxury (premium materials) or Modern?"
+  }
+}
